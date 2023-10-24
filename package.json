@@ -1,0 +1,38 @@
+{
+  "name": "@rascaljs/materials",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Rascaljs's component materials for Vue",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "format": "ras prettier-format",
+    "commit": "ras git-commit",
+    "cleanup": "ras cleanup",
+    "update-pkg": "ras update-pkg",
+    "init-git": "ras init-git-hooks",
+    "tsx": "tsx",
+    "publish-pkg": "pnpm -r publish --access public",
+    "release": "ras release",
+    "prepare": "pnpm -r run stub"
+  },
+  "devDependencies": {
+    "@rascaljs/cli": "0.4.0",
+    "npm-check-updates": "16.14.6",
+    "eslint": "8.42.0",
+    "eslint-config-rascal": "0.2.3",
+    "simple-git-hooks": "2.8.1",
+    "tsup": "6.7.0",
+    "tsx": "3.12.7",
+    "typescript": "5.1.3",
+    "lint-staged": "^15.0.2"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "pnpm ras git-commit-verify",
+    "pre-commit": "pnpm ras lint-staged"
+  },
+  "github-token": "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"
+}
