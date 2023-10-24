@@ -16,8 +16,7 @@
     "init-git": "ras init-git-hooks",
     "tsx": "tsx",
     "publish-pkg": "pnpm -r publish --access public",
-    "release": "ras release",
-    "prepare": "pnpm -r run stub"
+    "release": "ras release"
   },
   "devDependencies": {
     "@rascaljs/cli": "0.4.0",
