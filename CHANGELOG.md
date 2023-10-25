@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [v0.1.4](https://github.com/Rascal-Coder/materials/compare/v0.1.3...main) (23-10-25)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: Update deps &nbsp;-&nbsp; by **一个小瘪三** [<samp>(3ed03)</samp>](https://github.com/Rascal-Coder/materials/commit/3ed03de)
+- **projects**: Change eslint &nbsp;-&nbsp; by **一个小瘪三** [<samp>(e5778)</samp>](https://github.com/Rascal-Coder/materials/commit/e577889)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+
+[一个小瘪三](mailto:10948399+menon-qiqi@user.noreply.gitee.com)
+
 ## [v0.1.3](https://github.com/Rascal-Coder/materials/compare/v0.1.2...main) (23-10-25)
 
 ### &nbsp;&nbsp;&nbsp;📖 Documentation

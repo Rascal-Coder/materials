@@ -1,6 +1,6 @@
 {
   "name": "@rascaljs/materials",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Rascaljs's component materials for Vue",
   "license": "MIT",
   "publishConfig": {
