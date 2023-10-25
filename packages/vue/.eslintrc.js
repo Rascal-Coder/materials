@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['soybeanjs/vue'],
+  extends: ['rascaljs/vue'],
   settings: {
     'import/core-modules': ['uno.css']
   }

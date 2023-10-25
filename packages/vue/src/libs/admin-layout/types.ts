@@ -160,7 +160,7 @@ export interface LayoutProps extends HeaderConfig, TabConfig, SiderConfig, Conte
    * @default 默认: const adminLayoutScrollElId = '__ADMIN_LAYOUT_SCROLL_EL_ID__'
    * @example 使用导出的默认ID
    * ```ts
-   * import { adminLayoutScrollElId } from '@soybeanjs/vue-materials';
+   * import { adminLayoutScrollElId } from '@rascaljs/vue-materials';
    * ```
    */
   scrollElId?: string;

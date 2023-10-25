@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['soybeanjs'],
+  extends: ['rascal'],
   settings: {
     'import/core-modules': ['uno.css']
   }

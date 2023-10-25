@@ -12,7 +12,7 @@ export const SCROLL_EL_ID = LAYOUT_SCROLL_EL_ID;
 /** 最大的zIndex值 */
 export const LAYOUT_MAX_Z_INDEX = 100;
 
-type Prefix = '--soy-';
+type Prefix = '--ras-';
 
 type CssVarsProps = Pick<
   LayoutProps,
@@ -31,16 +31,16 @@ type CssVars = {
 
 function createCssVars(props: CssVarsProps) {
   const cssVars: CssVars = {
-    '--soy-header-height': `${props.headerHeight}px`,
-    '--soy-header-z-index': props.headerZIndex,
-    '--soy-tab-height': `${props.tabHeight}px`,
-    '--soy-tab-z-index': props.tabZIndex,
-    '--soy-sider-width': `${props.siderWidth}px`,
-    '--soy-sider-collapsed-width': `${props.siderCollapsedWidth}px`,
-    '--soy-sider-z-index': props.siderZIndex,
-    '--soy-mobile-sider-z-index': props.mobileSiderZIndex,
-    '--soy-footer-height': `${props.footerHeight}px`,
-    '--soy-footer-z-index': props.footerZIndex
+    '--ras-header-height': `${props.headerHeight}px`,
+    '--ras-header-z-index': props.headerZIndex,
+    '--ras-tab-height': `${props.tabHeight}px`,
+    '--ras-tab-z-index': props.tabZIndex,
+    '--ras-sider-width': `${props.siderWidth}px`,
+    '--ras-sider-collapsed-width': `${props.siderCollapsedWidth}px`,
+    '--ras-sider-z-index': props.siderZIndex,
+    '--ras-mobile-sider-z-index': props.mobileSiderZIndex,
+    '--ras-footer-height': `${props.footerHeight}px`,
+    '--ras-footer-z-index': props.footerZIndex
   };
 
   return cssVars;
